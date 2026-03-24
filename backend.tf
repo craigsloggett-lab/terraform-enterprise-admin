@@ -2,11 +2,11 @@
 
 terraform {
   cloud {
-    organization = "UPDATE_ME"
+    organization = "craigsloggett-lab"
 
     workspaces {
-      project = "UPDATE_ME"
-      name    = "UPDATE_ME"
+      project = "Administration"
+      name    = "terraform-enterprise-admin"
     }
   }
 }
