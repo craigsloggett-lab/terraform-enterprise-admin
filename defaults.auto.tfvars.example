@@ -1,3 +1,4 @@
-# Any file ending in .auto.tfvars is automatically loaded in lexicographical 
-# order, enabling the ability to split variable definitions into multiple 
-# files.
+tfe_hostname     = "tfe.example.com"
+tfe_organization = "my-organization"
+
+github_vcs_provider_oauth_token = "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
